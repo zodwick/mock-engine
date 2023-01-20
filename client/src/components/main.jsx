@@ -17,7 +17,7 @@ export default function Main() {
         <li>all will be mcq questions</li>
         <li>results will be shown at the end</li>
       </ol>
-      <form id='form'>
+      <form className='userid' id='form'>
         <input ref={inputRef} type="text" placeholder='Username*' />
       </form>
       <div className='start'>
